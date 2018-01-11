@@ -1,4 +1,4 @@
-// Exo 1
+// Exo 1 Warmup
 
 var lebouton = document.querySelector('button');
 var lecontenu = document.getElementById("elementscentraux");
@@ -17,7 +17,7 @@ lebouton.onclick = function() {
   affichage();
 }
 
-// Exo 2
+// Exo 2 Redirection
 
 
 var boutonrecherche = document.getElementById("bouton1");
@@ -30,3 +30,12 @@ function recherche(larecherche) {
 bouton1.onclick = function () {
   recherche();
 }
+
+
+// Exo 3 Popup
+
+function popupporn() {
+  alert("Hey le site xxxvidsxxx est trop bien !!!\nViens dessus stp please.\nAllez please, Viens , on est trop bien !!!");
+}
+
+setTimeout(popupporn, 8000);
