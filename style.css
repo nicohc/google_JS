@@ -5,18 +5,21 @@ body{
   margin:0px;
 }
 
-.button
-{
+.button {
   border-radius: 2px;
   padding: 2px 12px;
   font-weight: bold;
+}
 
+/* Div a cacher */
+
+#elementscentraux {
+  display:none;
 }
 
 /* Barre de menu */
 
-#menu
-{
+#menu {
     display: flex;
     justify-content: flex-end;
     padding: 8px 30px;
@@ -24,37 +27,28 @@ body{
     align-items: center;
 }
 
-.option
-{
+.option {
 	padding-right:15px;
-
 }
 
-.option img
-{
+.option img {
 	height: 20px;
 	width: 20px;
   vertical-align: middle;
   opacity: 0.55;
 }
-.option img:hover
-{
+.option img:hover {
   opacity: 1;
 }
 
-
-.option.button
-{
+.option.button {
 	background-color: rgb(70,131,234);
 	color:white;
   border: 1px rgb(66,133,244) solid;
 }
-.option.button:hover
-{
+.option.button:hover {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
-
-
 
 
 /* Logo */
@@ -76,7 +70,6 @@ body{
 .searchbar {
   display: flex;
   justify-content: center;
-
 }
 
 .searchbar input{
@@ -89,29 +82,24 @@ body{
    border: 0;
    outline: 0;
    font-size: 16px;
-
 }
 
 /* Searchbutton */
 
-.searchbutton
-{
+.searchbutton {
   display: flex;
   justify-content: center;
   padding-top: 18px;
 }
 
-.searchbutton .button
-{
+.searchbutton .button {
   height: 36px;
   line-height: 36px;
   background-color: #F2F2F2;
 	color: #757575;
   margin: 11px 4px;
   padding: 0 16px;
-
 }
-
 
 /* Footer */
 footer {
